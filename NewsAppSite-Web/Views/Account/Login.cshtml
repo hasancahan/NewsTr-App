@@ -1,0 +1,95 @@
+﻿@model NewsAppSite_Web.Models.Users;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Slider Sign in/up Form</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="stylesheet" href="~/css/login.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form asp-action="Register" method="post">
+                <h1>Hesap Oluştur</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ya da e-posta ile kayıt ol</span>
+
+                <div>
+                    <input asp-for="FullName" placeholder="Ad Soyad" />
+                    <span asp-validation-for="FullName"></span>
+                </div>
+
+                <div>
+                    <input asp-for="Username" placeholder="Kullanıcı Adı" />
+                    <span asp-validation-for="Username"></span>
+                </div>
+
+                <div>
+                    <input asp-for="Email" placeholder="Email Adresi" />
+                    <span asp-validation-for="Email"></span>
+                </div>
+
+                <div>
+                    <input asp-for="Password" placeholder="Şifre" />
+                    <span asp-validation-for="Password"></span>
+                </div>
+
+                <button type="submit">Kayıt Ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form asp-action="Login" method="post">
+
+                <h1>Giriş Yap</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ya da hesabınızı kullanın</span>
+
+                <div>
+                    <input asp-for="Username" placeholder="Kullanıcı Adı" />
+                    <span asp-validation-for="Username"></span>
+                </div>
+
+                <div>
+                    <input asp-for="Password" placeholder="Şifre" />
+                    <span asp-validation-for="Password"></span>
+                </div>
+
+                <a href="#">Şifrenizi mi unuttunuz?</a>
+                <button type="submit">Giriş Yap</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Hoşgeldiniz!</h1>
+                    <p>Bizimle bağlantıda kalmak için kişisel bilgilerinizi kullanarak giriş yapın</p>
+                    <button class="ghost" id="signIn">Giriş Yap</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Merhaba</h1>
+                    <p>Henüz üye değilseniz, lütfen yeni bir hesap oluşturarak kaydolun</p>
+                    <button class="ghost" id="signUp">Kayıt Ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/login.js"></script>
+
+</body>
+</html>

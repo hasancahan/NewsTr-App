@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Visual Studio\\NewsAppSite-Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36EEC42D-1292-4771-9ABC-408F141E6FB5}|NewsAppSite-Web\\NewsAppSite-Web.csproj|d:\\projects\\visual studio\\newsappsite-web\\newsappsite-web\\views\\newsapp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36EEC42D-1292-4771-9ABC-408F141E6FB5}|NewsAppSite-Web\\NewsAppSite-Web.csproj|solutionrelative:newsappsite-web\\views\\newsapp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EEC42D-1292-4771-9ABC-408F141E6FB5}|NewsAppSite-Web\\NewsAppSite-Web.csproj|d:\\projects\\visual studio\\newsappsite-web\\newsappsite-web\\views\\newsapp\\newsdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36EEC42D-1292-4771-9ABC-408F141E6FB5}|NewsAppSite-Web\\NewsAppSite-Web.csproj|solutionrelative:newsappsite-web\\views\\newsapp\\newsdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewsDetails.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio\\NewsAppSite-Web\\NewsAppSite-Web\\Views\\NewsApp\\NewsDetails.cshtml",
+              "RelativeDocumentMoniker": "NewsAppSite-Web\\Views\\NewsApp\\NewsDetails.cshtml",
+              "ToolTip": "D:\\Projects\\Visual Studio\\NewsAppSite-Web\\NewsAppSite-Web\\Views\\NewsApp\\NewsDetails.cshtml",
+              "RelativeToolTip": "NewsAppSite-Web\\Views\\NewsApp\\NewsDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T10:35:29.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio\\NewsAppSite-Web\\NewsAppSite-Web\\Views\\NewsApp\\Index.cshtml",
+              "RelativeDocumentMoniker": "NewsAppSite-Web\\Views\\NewsApp\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Visual Studio\\NewsAppSite-Web\\NewsAppSite-Web\\Views\\NewsApp\\Index.cshtml",
+              "RelativeToolTip": "NewsAppSite-Web\\Views\\NewsApp\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T10:22:06.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

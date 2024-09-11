@@ -1,0 +1,86 @@
+﻿@model NewsAppSite_Web.Models.News;
+
+@{
+    
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <article>
+                <header class="mb-4">
+                    <h1 class="fw-bolder mb-1">@Model.Title</h1>
+                    <div class="text-muted fst-italic mb-2">1 Ocak 2023 tarihinde Start Bootstrap tarafından yayınlandı</div>
+                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Tasarımı</a>
+                </header>
+                <figure class="mb-4"><img class="img-fluid rounded" src="@Model.ImageUrl" alt="Image" /></figure>
+                <section class="mb-5">
+                    <p class="fs-5 mb-4">@Model.Description</p>
+                    <a href="@Model.Url"
+                       target="_blank"
+                       style="font-size: 18px; font-weight: bold; color: blue; text-decoration: underline;">
+                        Haberin tüm detaylarını öğrenmek için buraya tıklayın!
+                    </a>
+
+                </section>
+            </article>
+
+            <section class="mb-5">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Tartışmaya katılın ve bir yorum bırakın!"></textarea></form>
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                            <div class="ms-3">
+                                <div class="fw-bold">Yorumcu Adı</div>
+                                 ...
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                            <div class="ms-3">
+                                <div class="fw-bold">Yorumcu Adı</div>
+                                ...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mb-4">
+                <div class="card-header">Arama</div>
+                <div class="card-body">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Arama terimini girin..." aria-label="Arama terimini girin..." aria-describedby="button-search" />
+                        <button class="btn btn-primary" id="button-search" type="button">Git!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">Kategoriler</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#!">Web Tasarımı</a></li>
+                                <li><a href="#!">HTML</a></li>
+                                <li><a href="#!">Ücretsiz Araçlar</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#!">JavaScript</a></li>
+                                <li><a href="#!">CSS</a></li>
+                                <li><a href="#!">Eğitimler</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">Yan Widget</div>
+                <div class="card-body">Bu yan widget'lar içerisine istediğiniz herhangi bir şeyi koyabilirsiniz. Kullanımları kolaydır ve Bootstrap 5 kart bileşenini içerir!</div>
+            </div>
+        </div>
+    </div>
+</div>
